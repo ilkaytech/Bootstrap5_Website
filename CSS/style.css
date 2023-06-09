@@ -1,0 +1,49 @@
+* {
+}
+:root {
+  --yellow: #f2cb05;
+  --red: #dc3545;
+}
+/* -------navbar------- */
+.navbar .navbar-nav {
+  /* text-transform: uppercase; */
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.navbar .nav-link {
+  transition: 0.3s ease;
+}
+.navbar .nav-link:hover {
+  color: var(--yellow);
+}
+.navbar-brand img {
+  width: 50%;
+  height: 50%;
+}
+/* -------end navbar------- */
+/* -------carousel------- */
+.carousel-item {
+  max-height: calc(100vh - 90px);
+}
+.carousel-caption h5 {
+  color: var(--yellow);
+  font-size: 2.4rem;
+  text-shadow: 3px 6px 6px black;
+}
+.carousel-caption p {
+  text-shadow: 3px 6px 6px black;
+  font-weight: 500;
+}
+.carousel-caption .btn {
+  width: 7rem;
+}
+.carousel-caption {
+  bottom: 2rem;
+}
+.carousel-indicators {
+  gap: 0.7em;
+}
+.carousel-indicators button {
+  /* background-color: var(--yellow) !important; */
+}
+/* -------end carousel------- */
