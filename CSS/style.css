@@ -48,16 +48,24 @@
 }
 /* -------end carousel------- */
 /* brands */
+#brands {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 section#brands .card {
   transition: 0.3s all;
 }
 section#brands .card:hover {
   transform: scale(1.02);
 }
-/* section#brands .a {
-  transition: opacity 0.6s;
-} */
 section#brands .a:hover {
   opacity: 0.6;
 }
 /* brands */
+/* investors */
+.investors h5 {
+  color: var(--yellow);
+  font-size: 2.4rem;
+  text-shadow: 3px 6px 6px black;
+}
+/* investors */
