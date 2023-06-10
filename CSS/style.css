@@ -1,10 +1,16 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --yellow: #f2cb05;
   --red: #dc3545;
 }
-/* -------navbar------- */
+/* navbar */
+.nav {
+  text-align: center;
+}
 .navbar a {
   margin-top: 10px;
 }
@@ -13,7 +19,6 @@
   padding: 6px;
 }
 .navbar .navbar-nav {
-  /* text-transform: uppercase; */
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -24,8 +29,8 @@
   color: var(--yellow);
 }
 .navbar-brand img {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
 }
 /* -------end navbar------- */
 /* -------carousel------- */
@@ -50,6 +55,7 @@
 .carousel-indicators {
   gap: 0.7em;
 }
+
 .carousel-indicators button {
   /* background-color: var(--yellow) !important; */
 }
@@ -60,11 +66,14 @@
 }
 /* brands */
 #brands {
-  margin-top: 50px;
+  margin-top: 100px;
 }
-
+#brands h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
 #brands .row {
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 section#brands .card {
@@ -85,6 +94,8 @@ section#brands .a:hover {
 #investors h2 {
   margin-top: 50px;
   margin-bottom: 80px;
+  font-size: 3rem;
+  font-weight: 500;
 }
 #investors h5 {
   color: var(--yellow);
@@ -95,4 +106,48 @@ section#brands .a:hover {
   text-shadow: 3px 6px 6px black;
   font-weight: 500;
 }
+#investors .card {
+  margin-top: 130px;
+}
 /* investors */
+/* careers */
+#careers h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+#careers img {
+  background-color: aqua;
+  width: 90%;
+  height: 90%;
+  margin-bottom: 50px;
+  float: right;
+}
+#careers p {
+  margin-top: 30px;
+  font-size: 3srem;
+  line-height: 1.5;
+  text-align: left;
+}
+#careers .baslik {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: left;
+}
+#careers .baslik::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-left: 0px;
+  width: 10%;
+  border-bottom: 7px solid var(--yellow);
+}
+footer {
+  background-color: var(--yellow);
+}
+#footer p {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: white;
+}
+/* careers */
